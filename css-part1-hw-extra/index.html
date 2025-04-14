@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="banner">
+            <a id="company-link" href="https://www.mobileye.com/" target="_blank">
+                &#127760 לאתר הגלובלי
+            </a>
+            <h1 class="text-start text-dark-blue text-shadow text-left">
+                mobileye<span class="fly-text">TM</span>
+            </h1>
+        </div>
+        <br />
+        <br />
+
+        <div id="company-description" class="center text-center">
+            <div class="inline">
+
+                <h3 class=" text-30 text-dark-blue text-shadow mb-0">מובילאיי - טכנולוגיה אוטונומית</h3>
+                <p class="text-shadow-subtitle text-20 my-0">החברה המובילה בעולם בתחום טכנולוגיות נהיגה אוטונומית</p>
+            </div>
+            <h3 class="text-shadow-subtitle text-30">חזון שהופך למציאות</h3>
+            <p>
+                יותר משני עשורים חלפו מאז הקים פרופ' אמנון שעשוע את מובילאיי עם מטרה ברורה - להפוך את חווית הנהיגה
+                לבטוחה יותר.
+                <br />
+                הפתרון שהוצע ייחודי בפשטותו וביעילותו - שבב חדיש המחובר למצלמה, שיחד יסייעו למנוע תאונות דרכים.
+                כיום, מובילאיי התמקמה בחוד החנית הטכנולוגית של מערכות העזר לנהיגה ופתרונות אוטונומיים לרכבים.
+                <br />
+                אנחנו מפתחים תוכנה וחומרה בעזרת טכנולוגיות בינה מלאכותית ועיבוד תמונה, וממפים כבישים מסביב לעולם
+                בעודנו
+                סוללים
+                את הדרך לטכנולוגיה אוטונומית מתקדמת.
+            </p>
+            <img src="assets/images/company.png" alt="Company Logo" class="img-fluid max-width-800 my-10" />
+            <div class="images-container center-items my-10">
+                <img src="https://static.mobileye.com/website/us/corporate/images/e8f3cdb7e19232218e35664f2bec3a8c_1737633952001.jpg"
+                    alt="image-1" class="img-fluid max-width-400 mx-10 " />
+
+                <img src="https://static.mobileye.com/website/us/corporate/images/af7696dab443a2b5d1483cef50715beb_1720082783552.jpg"
+                    alt="image2" class="img-fluid max-width-400" />
+
+            </div>
+            <p>
+                כתובת המשרד הראשי:
+                <a href="https://www.google.com/maps/place/Mordekhai+Anielewicz+St+52,+Tel+Aviv-Yafo,+6706009"
+                    class="my-10" id="address-link" target="_blank">
+                    Mordekhai Anielewicz St 52, Tel Aviv-Yafo, 6706009
+                </a>
+            </p>
+        </div>
+        <br />
+        <div id="company-description">
+            <h3 class="">הסניפים שלנו</h3>
+            <table id="branches-table">
+                <thead>
+                    <tr>
+                        <td>שם סניף</td>
+                        <td>שעות פעילות</td>
+                        <td>כתובת</td>
+                        <td>הערות</td>
+                        <td id="action">פעולות</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>סניף תל אביב</td>
+                        <td>08:00 - 17:00</td>
+                        <td>מנחם בגין 132, תל אביב</td>
+                        <td>סניף ראשי</td>
+                        <td><button class="btn btn-danger">הסרה</button></td>
+                    </tr>
+                    <tr>
+                        <td>סניף הרצליה</td>
+                        <td>08:00 - 17:00</td>
+                        <td>המרגליות 12, הרצליה</td>
+                        <td>סניף משני</td>
+                        <td><button class="btn btn-danger">הסרה</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <br />
+        <br />
+        <div id="add-branch-section" class="center">
+            <h2 class="text-30">הוספת סניף חדש</h2>
+            <form id="add-branch-form">
+                <div class="form-group my-10">
+                    <label for="branch-name"><span class="required">*</span>שם סניף:</label>
+                    <input type="text" id="branch-name" name="branch-name">
+                    <div class="error-message d-none"><small id="branch-name-error">נא להזין שם סניף</small></div>
+                </div>
+
+                <div class="form-group my-10">
+                    <label for="address"><span class="required">*</span>כתובת:</label>
+                    <input type="text" id="address" name="address">
+                    <div class="error-message d-none"><small id="address-error">נא להזין כתובת</small></div>
+                </div>
+                <div class="form-group my-10">
+                    <label>שעות פעילות:</label>
+                    <input type="time" class="my-10" id="start-time" name="start-time"> -
+                    <input type="time" id="end-time" name="end-time">
+                    <div class="error-message d-none"><small id="time-error">שעות פעילות לא תקינות</small></div>
+                </div>
+                <div class="form-group my-10">
+                    <label for="notes">הערות:</label>
+                    <input type="text" id="notes" name="notes">
+                </div>
+                <button type="submit" role="button" id="add-branch" class="btn btn-primary">הוסף סניף</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="script.js"></script>
