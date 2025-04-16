@@ -1,0 +1,28 @@
+body {
+    padding: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.my-10 {
+    margin-top: 10px;
+}
+
+.img-fluid {
+    max-width: 100px;
+    width: 100%;
+}
+
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 2px solid #3a6de4;
+    padding: 8px;
+    text-align: left;
+}
