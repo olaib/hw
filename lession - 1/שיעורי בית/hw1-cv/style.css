@@ -1,0 +1,75 @@
+body {
+    margin-top: 2rem;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    margin-right: 2rem;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table,
+td {
+    border-collapse: collapse;
+}
+
+.year {
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.job-description {
+    padding-top: 0px;
+    padding-left: 40px;
+}
+
+tr.job td {
+    padding-top: 6px;
+    padding-bottom: 0px;
+
+}
+
+.bold-500 {
+    font-weight: 600;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.tool {
+    padding-bottom: 2px;
+}
+
+tr.description td {
+    padding-top: 0px;
+}
+
+tr.first-item td {
+    padding-top: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.subtitle {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.content {
+    display: inline;
+    margin-top: 0px;
+}
