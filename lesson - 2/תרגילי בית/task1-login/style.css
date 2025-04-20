@@ -1,0 +1,65 @@
+body {
+    background-color: #1B87EB;
+    font-family: 'Arial', sans-serif;
+}
+
+#main-container {
+    position: relative;
+    background-color: white;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 50px 60px 50px;
+    margin: 50px auto 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#submit-btn {
+    background-color: #167BFF;
+    height: 35px;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+}
+
+.form-group>input {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.form-group>label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.checkbox {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #167BFF;
+}
+
+#forget-password-container {
+    margin-top: 5px;
+    position: absolute;
+    right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-gray {
+    color: #5f6161;
+}

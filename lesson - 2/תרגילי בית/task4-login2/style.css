@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+#main-container {
+    position: relative;
+    top: 50px;
+    border: 3px solid black;
+    position: relative;
+    background-color: white;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 20px 30px 20px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#code::placeholder {
+    color: #5f6161;
+    font-size: 5px;
+    letter-spacing: 1px;
+}
+
+#submit-btn {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#submit-btn:hover {
+    background-color: #70acdd;
+    color: #167BFF;
+}
+
+#submit-btn:active {
+    background-color: green;
+    color: white;
+}
+
+hr {
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.form-group>input {
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    width: 100%;
+    /* margin-top: 5px; */
+    padding-left: 10px;
+}
+
+.form-group>label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.checkbox {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #167BFF;
+}
+
+#forget-password-container {
+    margin-top: 5px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-gray {
+    color: #5f6161;
+}
